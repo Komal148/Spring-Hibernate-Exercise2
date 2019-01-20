@@ -1,17 +1,16 @@
-package com.stackroute.muzixapp.dao;
+package com.stackroute.hibernate.dao;
 
 import java.util.List;
 
 import javax.transaction.Transactional;
 
-import org.hibernate.Hibernate;
 import org.hibernate.SessionFactory;
 
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.stackroute.muzixapp.model.Track;
+import com.stackroute.hibernate.model.Track;
 
 @Repository
 @Transactional

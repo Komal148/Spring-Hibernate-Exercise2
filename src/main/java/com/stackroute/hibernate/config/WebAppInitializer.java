@@ -1,4 +1,4 @@
-package com.stackroute.muzixapp.config;
+package com.stackroute.hibernate.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

@@ -1,4 +1,4 @@
-package com.stackroute.muzixapp.config;
+package com.stackroute.hibernate.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.stackroute.muzixapp")
+@ComponentScan(basePackages = "com.stackroute.hibernate")
 public class WebMvcConfig implements WebMvcConfigurer {
 
 	@Bean

@@ -1,4 +1,4 @@
-package com.stackroute.muzixapp.model;
+package com.stackroute.hibernate.model;
 
 import javax.persistence.*;
 

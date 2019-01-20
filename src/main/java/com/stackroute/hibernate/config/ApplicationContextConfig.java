@@ -1,4 +1,4 @@
-package com.stackroute.muzixapp.config;
+package com.stackroute.hibernate.config;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -13,7 +13,7 @@ import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import com.stackroute.muzixapp.model.Track;
+import com.stackroute.hibernate.model.Track;
 
 @Configuration
 @EnableTransactionManagement
